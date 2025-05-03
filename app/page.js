@@ -5,7 +5,7 @@ import { ToastContainer } from 'react-toastify';
 export default function HomePage() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white px-6 pb-9 animate-gradient">
-      <ToastContainer className="regular" />
+      {/* <ToastContainer className="regular" /> */}
       {/* Header Section */}
       <div className="flex items-center space-x-2 bg-gray-800 px-4 py-2 rounded-full shadow-lg">
         <FaCanadianMapleLeaf className="text-red-500 text-xl" />
