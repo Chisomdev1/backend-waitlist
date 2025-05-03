@@ -2,26 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: Cabinet;
+  src: url("./fonts/CabinetGrotesk-Regular.otf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.regular-Cabinet {
+  font-family: Cabinet;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.regular {
+  font-family: Poppins;
 }
