@@ -64,7 +64,7 @@ export default function WaitlistForm() {
       </form>
 
       {/* Alert Modal */}
-      {showAlert && (
+      {!showAlert && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="bg-white rounded-lg p-6 shadow-lg max-w-sm w-full">
             <GiCancel />
@@ -75,7 +75,7 @@ export default function WaitlistForm() {
               </span>
             </div>
             <h2 className="text-xl font-bold text-gray-800 mb-4 regular-Cabinet">
-              Welcome aboard, You'&apos;re on the list! 🎉
+              Welcome aboard, You&apos;re on the list! 🎉
             </h2>
             <p className="text-gray-600 mb-6 regular">
               You&apos;ll be the first to know when we launch, We&apos;ll keep you posted
