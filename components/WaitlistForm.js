@@ -75,10 +75,10 @@ export default function WaitlistForm() {
               </span>
             </div>
             <h2 className="text-xl font-bold text-gray-800 mb-4 regular-Cabinet">
-              Welcome aboard, You're on the list! 🎉
+              Welcome aboard, You'&apos;re on the list! 🎉
             </h2>
             <p className="text-gray-600 mb-6 regular">
-              You'll be the first to know when we launch, We'll keep you posted
+              You&apos;ll be the first to know when we launch, We&apos;ll keep you posted
               with early access updates.
             </p>
             <div className="">
